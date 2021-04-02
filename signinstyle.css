@@ -12,6 +12,11 @@
   font-family: Poppins;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .upper-section {
   padding: 1em 2em 0em;
   text-align: center;

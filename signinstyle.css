@@ -107,6 +107,11 @@ input {
   border: none;
   width: 100%;
   padding-left: 1em;
+  font-size: 1em;
+}
+
+.togglepassword {
+  cursor: pointer;
 }
 
 /* input {
@@ -126,8 +131,12 @@ input {
   color: white;
   width: 13em;
   border: none;
+  height: 4em;
+  text-align: center;
+  border-radius: 3em;
   -moz-appearance: none;
   -webkit-appearance: none;
+  padding-left: 0;
 }
 
 .hero-img {

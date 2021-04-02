@@ -40,6 +40,40 @@ body {
   color: var(--primary-color);
 }
 
+.user-svg {
+  width: auto;
+  height: 1em;
+  color: #bfbfbf;
+}
+
+.togglepassword {
+  width: auto;
+  height: 1.4em;
+  color: #bfbfbf;
+}
+
+.user-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #bfbfbf;
+  border-radius: 5em;
+  height: 3em;
+  padding: 1em;
+  width: 100%;
+}
+
+.pass-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #bfbfbf;
+  border-radius: 5em;
+  height: 3em;
+  padding: 1em;
+  width: 100%;
+}
+
 span {
   position: relative;
   top: -0.1em;
@@ -51,12 +85,16 @@ span {
   font-size: 1em;
 }
 
+.pw-in {
+  width: 100%;
+}
+
 h1 {
   font-size: 2.5em;
 }
 
 .left-col {
-  padding: 2% 20% 0 20%;
+  padding: 2% 28% 0 28%;
 }
 
 .input-tags {
@@ -66,6 +104,12 @@ h1 {
 }
 
 input {
+  border: none;
+  width: 100%;
+  padding-left: 1em;
+}
+
+/* input {
   margin-top: 14px;
   height: 45px;
   font-size: 1em;
@@ -75,7 +119,7 @@ input {
   box-shadow: 1px 1.4px #aaaaaa;
   width: 17.5em;
   text-align: center;
-}
+} */
 
 .submit-btn {
   background: #005995;

@@ -13,7 +13,7 @@
 }
 
 .upper-section {
-  padding: 1em 2em 0em;
+  padding: 2em 2em 0em;
   text-align: center;
   line-height: 2.4em;
 }
@@ -87,6 +87,7 @@ h1 {
 }
 
 .left-col {
+  margin-top: 2em;
   padding: 2% 25% 0 25%;
 }
 
@@ -111,7 +112,7 @@ input {
   color: white;
   width: 13em;
   border: none;
-  height: 4em;
+  height: 3em;
   text-align: center;
   border-radius: 3em;
   -moz-appearance: none;
@@ -120,7 +121,78 @@ input {
 }
 
 .hero-img {
-  padding-top: 1.6em;
+  margin-top: 3em;
   width: auto;
   height: 16.3em;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    font-size: 1.4em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .user-in {
+    border: solid 2px #bfbfbf;
+  }
+
+  .pass-in {
+    border: solid 2px #bfbfbf;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .upper-section {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    text-align: left;
+    top: 130px;
+    left: 100px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .left-col {
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 50%;
+    padding: 0 90px 0 90px;
+  }
+
+  .input-tags {
+    width: auto;
+  }
+
+  .user-in {
+    position: relative;
+  }
+
+  .right-col {
+    position: relative;
+    width: 50%;
+    right: 3%;
+  }
+
+  .hero-img {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+  }
 }
